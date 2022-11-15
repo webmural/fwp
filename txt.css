@@ -1,0 +1,53 @@
+:root {
+  font-size: max(1em, 2vmin + 2vmax);
+  font-family: monospace;
+  line-height: 1.3333333;
+}
+
+:any-link {
+  text-decoration: solid underline;
+  text-decoration-thickness: .2ex;
+  padding: 1ex;
+  display: inline-block;
+}
+
+time {
+  display: contents;
+}
+
+.crush {
+  word-spacing: -1em;
+}
+
+:focus {
+  outline: thick groove;
+  text-decoration-style: wavy;
+}
+
+body {
+  margin: auto;
+}
+
+article {
+  margin: auto;
+}
+
+h1 {
+  margin: auto;
+  contain: style;
+  max-width: 23em;
+  padding: 1em 1rem;
+  box-sizing: border-box;
+}
+
+p {
+  contain: style;
+  margin: auto;
+  padding: 1em 1rem;
+  box-sizing: border-box;
+}
+
+samp {
+  display: contents;
+  font-size: 1.6rem;
+}
